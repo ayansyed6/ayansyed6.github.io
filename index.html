@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Ayan Syed's online portfolio" />
+        <meta name="author" content="Ayan Syed" />
         <title>Ayan Syed Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/png" href="assets/img/ylogo.png"/>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -44,8 +44,8 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Ayan Syed</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Hey! I'm Ayan, an aspiring engineer from the Bay who loves to build everything from autonomous robots to intuitive apps </h2>
-                        <a class="btn btn-primary" href="#about">About Me!</a>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Hey! I'm Ayan, an aspiring engineer from the Bay who loves to build impactful software, hardware, and AI projects </h2>
+                        <a class="btn btn-primary" href="#about">Let's Build Somthing Awesome</a>
                         <h2></h2>
                         <div class="social d-flex justify-content-center">
                             <a class="mx-2" href="mailto:ayansyedca@gmail.com"><i class="fab fa-telegram"></i></a>
@@ -80,69 +80,94 @@ community. I'm someone who never stops learning and is always eager to tackle am
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/schoo.JPG" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0 rounded" src="assets/img/schoo.JPG" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Education 🎓</h4>
-                            <p class="text-black-50 mb-0">Incoming Sophmore at De Anza College in Cupertino, CA. Pursuing guarenteed transfer program to UC Irvine B.S. Computer Engineering for the Class of 2028. Also hoping to transfer to UC Berkeley and UCLA for EECS Majors.</p>
+                            <p class="text-black-50 mb-0" style="font-size: 18px;">Incoming Sophmore at De Anza College in Cupertino, CA. Pursuing guarenteed transfer program to UC Irvine B.S. Computer Engineering for the Class of 2028. Also hoping to transfer to UC Berkeley and UCLA for EECS Majors.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/comet.png" alt="..." /></div>
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center align-items-center">
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="assets/img/lockedinplaceholder.jpg" alt="..."/></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white"><a  href="https://cometkits.github.io">CometKitz</a></h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                <div class="project-text w-100 my-auto text-center text-lg-left p-4 rounded-3">
+                                    <h4 class="text-white mb-3" style="font-size: 1.8rem;">Latest: EEG Powered BCI AI Study Assistant</h4>
+                                    <p class="mb-0 text-white-50" style="font-size: 18px;">Real-time neurofeedback tool developed in 9 hours during DA Hacks 3.5. Assists students in maintaining focus during long study sessions by leveraging brain Waves data from an OpenBCI headset. Systems gives feedback and recommendations like when to take breaks and trace windows of focus-state.<br>
+                                    <br> • Integrated real-time EEG data acquisition using the OpenBCI Cyton board, enabling continuous monitoring of brain activity during study sessions.<br>
+                                    • Processed data using Bandpass, Low/High Pass Filters and Fast Fourier Transform to gain insighful Delta, Alpha, Beta, Theta, and Gamma Waves<br>
+                                    • Trained a Nueral Network in PyTorch to classify concentration levels using derived band powers and FFT outputs<br>
+                                    • Linked Data and ML thread to work with teammates' Gemini API integration to generate personalized feedback and actionable insights to boost realtime productivity.<br> 
+                                    • All shown in minimalistic user interface that displays dynamic study timer and concentration feedback<br></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/IMG_2588.jpg" alt="..." /></div>
+                <div class="row gx-0 justify-content-center align-items-center">
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="assets/img/IMG_2588.jpg" alt="..."/></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <div class="project-text w-100 my-auto text-center text-lg-right p-4 rounded-3">
                                     <h4 class="text-white">Gemini Powered Robot Arm</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                    <p class="mb-0 text-white-50" style="font-size: 18px;">Built a low-cost, voice-controlled 5DOF robotic arm that combines computer vision, inverse kinematics, and natural language processing using Google Gemini. The arm can detect objects, plan motion paths, and execute manipulation tasks based purely on verbal commands—all for under $50.<br><br>
+                                        • Integrated Google Gemini to convert spoken or typed commands into structured action plans the robot can execute in real-world space.<br>
+                                        • Used OpenCV + ArUco markers and cv2.solvePnP to accurately detect object positions and orientations in real-time.<br>
+                                        • Built a custom URDF robot model and used IKPy to compute joint angles dynamically for precise 3D movement.<br>
+                                        • Implemented a trapezoidal velocity profile for smooth acceleration/deceleration, reducing mechanical stress and overshoot.<br>
+                                        •The entire system—including CAD, code, and control logic—is open-source, modular, and designed to be manufactured for under $50 using 3D printing and basic electronics.<br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/rccar.JPG" alt="..." /></div>
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center align-items-center">
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="assets/img/rccar.JPG" alt="..."/></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <div class="project-text w-100 my-auto text-center text-lg-left p-4 rounded-3">
                                     <h4 class="text-white">Autonomous RC Car Racer</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <p class="mb-0 text-white-50" style="font-size: 18px;">Repurposed my younger brother's broken toy car by redesigning the electronic control system and adding a custom software stack to give it the ability to navigate autonomously using only a monocular USB camera and onboard computation. Still being developed<br><br>
+                                        • Currenlty implementing visual SLAM (ORB-SLAM3) on a Raspberry Pi 4B running ROS2 Humble, enabling the car to perform real-time localization with only monocular vision and IMU<br>
+                                        • Built a custom point-to-point motion controller using an Arduino and Pure Pursuit<br>
+                                        • Calibrated camera and tuned ORB parameters to achieve < 4-inch error in localization accuracy during test runs in a typical home environment.<br>
+                                        • Developed an efficient I2C-based communication protocol between the Raspberry Pi and Arduino to decouple high-level planning from low-level motor control.<br>
+                                        • Designed and fabricated 3D-printed and CNC components to retrofit the original chassis with the new electronics, creating a stable and testable autonomous racing platform.<br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/swerve.png" alt="..." /></div>
+                <div class="row gx-0 justify-content-center align-items-center">
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="assets/img/comet.png" alt="..."/></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Custom FTC Swerve</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                <div class="project-text w-100 my-auto text-center text-lg-right p-4 rounded-3">
+                                    <h4 class="text-white"><a  href="https://cometkits.github.io">CometKitz</a></h4>
+                                    <p class="mb-0 text-white-50" style="font-size: 18px;">
+                                        As a junior/rising senior in high school, I co-founded CometKitz with three of my friends—an educational nonprofit that delivers low-cost, custom-designed robotics kits and multi-week, hands-on engineering programs to elementary schoolers. After learning that many local teachers were stepping away from hands-on STEM education due to rising kit costs, we made affordable and scalable robotics platform that could be easily integrated into classrooms.<br>
+                                        <br>• Co-developed a sub-$25 custom robotics kit featuring a custom PCB and Arduino Nano, designed in KiCAD and manufactured in-house<br>                                        <br>
+                                        • Built a drag-and-drop Arduino block translator to make sequentual coding more accessible for beginners in code<br>
+                                        • Secured over $10,000 in R&D and execution funding by pitching to local Silicon Valley big tech. Highest Sponsor: Global Foundries<br>
+                                        • Ran 5+ multi-week programs that reached 200+ students across the greater South Bay Area <br>
+                                        • Featured on multiple Bay Area news channels and currently scaling the program to reach more students and schools                                        .
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
             
         </section>
@@ -150,38 +175,42 @@ community. I'm someone who never stops learning and is always eager to tackle am
             <div class="container px-4 px-lg-5">
                 <!-- Featured Experiences Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/lspace.png" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0 rounded" src="assets/img/lspace.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h5 class="text-white">Most Recently:</h5>
                             <h4 class="text-white">NASA L'SPACE Researcher</h4>
-                            <p class="text-white-50 mb-0">expereicen Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <p class="text-white-50 mb-0" style="font-size: 18px;">Was 1 of 2 undergrads in a NASA research team of 12 that spent 8 weeks proposing, developing, and testing a novel basalt infused aerogel-based insulation and protection covering for 
+                                exteme extraterrestial atmopheric missions like those on Titan or Venus. I served with two PhD students on the simulation and applications part of the proposal and got to develop FEA and MATLAB
+                            algorithms to evaluate the matrial under stress. I later was able to independently design a prototype Arduino-powered thermocouple and stress testbed for NASA to test the material if pursued. All this was
+                        put together in a 15 page NASA technical proposal. </p>
                         </div>
                     </div>
                 </div>
                 <!-- Experience One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ames.png" alt="..." /></div>
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center align-items-center">
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="assets/img/ames.png" alt="..."/></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <div class="project-text w-100 my-auto text-center text-lg-left p-4 rounded-3">
                                     <h4 class="text-white">AMES Summer Research Assistant</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <p class="mb-0 text-white-50" style="font-size: 18px;">I conducted research on alternative propulsion sources at NASA Ames Research Center in Mountain View, CA. I worked collaboratively with NASA software and electrical simulation engineers to gather emission data on SAF(Biofuel), electrical, and hydrogen fuels and analyze their performance in the air and over sustained loads like those in a commercial airliner. With the guidance of a NASA mentor, my team also authored an official NASA paper providing an introduction to alternative fuels and proposing a 30-year timeline for industry implementation that was later uploaded to NASA report servers</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Experience Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                <div class="row gx-0 justify-content-center align-items-center">
+                    <div class="col-lg-6"><img class="img-fluid rounded" src="assets/img/8872bot.JPG" alt="..."/></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <div class="project-text w-100 my-auto text-center text-lg-right p-4 rounded-3">
                                     <h4 class="text-white">FTC Robotics: Team 8872</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                    <p class="mb-0 text-white-50" style="font-size: 18px;">Spearheaded the design and fabrication of three competitive robots, each in the top 100 worldwide, over my three seasons leading and competing in FTC robotics. Most recently, I served as captain of team 8872 Robopocalypse in which I led electrical, mechanical, software, and business teams to create a competitive robot and plan outreach events.<br> My technical work mostly involved designing/simulating/manufacutring assemblies using Fusion 360, 3D Printing, waterjet cutting, and CNC Machines, and building reliable electrical power/signal distribution systems for the robot. I also worked with PIDf controllers and autonomous scripting with our software team.<br> Under the tenure of my leadership and service, the team consistently placed within the top 1% worldwide and in 2024 was one of 5 out of 260 to win Northern Califronia  allowing us to compete at the Houston World Championship. 
+                                    </p>
                                 </div>
                             </div>
                         </div>
